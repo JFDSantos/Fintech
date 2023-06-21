@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    left: center;
+    width: 390px;
+    height: 1180px;
+    border: 1px solid #000;
+    background: #EDF2F4;
+}
+
+.bi-eye{
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}
+
+.header-dashboard{
+    width: 389px;
+    height: 165px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #D80032;
+}
+
+.imagem-perfil{
+    justify-content: center;
+    align-items: center;
+    left: 3.59%;
+    right: 76.15%;
+    top: 26.06%;
+    bottom: 26.06%;
+    background-color: #8D99AE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bi-person-fill{
+   font-size: 60px;
+}
+
+.text-title{
+    left: 26.15%;
+    right: 47.18%;
+    top: 34.55%;
+    bottom: 46.67%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.text-title-2{
+    left: 26.15%;
+    right: 30.54%;
+    top: 46.06%;
+    bottom: 35.76%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 29.3%;
+    left: 92.74%;
+}
+
+.bi-bell {
+    font-size: 40px;
+}
+
+.button-notification{
+    align-items: center;
+    justify-content: center;
+    left: 79.74%;
+    right: 3.85%;
+    top: 30.3%;
+    bottom: 30.91%;
+    background-color: #8A0111;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px black;
+    cursor: pointer;
+}
+
+.section-balance-dashboard{
+    width: 361px;
+    height: 199px;
+    left: 14px;
+    top: 139px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(216, 0, 50, 0.22);
+    border-radius: 15px;
+}
+
+.line-type-1{
+    width: 48px;
+    height: 0px;
+    right: 90%;
+    top: 15%;
+    bottom: 95.48%;
+    border: 3px solid #D80032;
+    border-radius: 20px;
+    transform: rotate(90deg);
+    z-index: 0;
+}
+
+.line-horizontal-type-1{
+    left: 0%;
+    right: 0%;
+    top: .67%;
+    bottom: 66.33%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-1-tittle{
+    left: 5.54%;
+    right: 62.6%;
+    top: 3.02%;
+    bottom: 70.85%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #5A5A5A;
+}
+
+.card-1-balance{
+    left: 5.54%;
+    right: 69.25%;
+    top: 16.08%;
+    bottom: 70.85%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+}
+
+#eye1{
+    position: absolute;
+    left: 86.7%;
+    right: 4.99%;
+    top: 8.54%;
+    bottom: 76.38%;
+}
+
+.card-1-accounts{
+    left: 2.49%;
+    top: 36.68%;
+    bottom: 50.25%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.card-1-icon{
+    align-items: center;
+    justify-content: center;
+    left: 2.49%;
+    right: 88.37%;
+    top: 52.76%;
+    bottom: 30.65%;
+    width: 35px;
+    height: 35px;
+    background: #8D99AE;
+    border-radius: 50%;
+}
+
+.bi-wallet2{
+    font-size: 20px;
+}
+
+.card-1-account-tittle{
+    left: 14.96%;
+    right: 68.7%;
+    top: 55.28%;
+    bottom: 33.17%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5A5A5A;
+}
+
+.card-1-value{
+    left: 77.01%;
+    right: 2.77%;
+    top: 55.28%;
+    bottom: 33.17%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #EF233C;
+}
+
+.btn-danger{
+    left: 2.49%;
+    right: 2.77%;
+    top: 77.89%;
+    bottom: 3.02%;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.section-investiment-dashboard{
+    width: 361px;
+    height: 240px;
+    left: 14px;
+    top: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(216, 0, 50, 0.22);
+    border-radius: 15px;
+}
+
+.line-vertical{
+    position: absolute;
+    width: 48px;
+    height: 0px;
+    right: 90%;
+    top: 25%;
+    bottom: 95.48%;
+}
+
+#line-vertical-1{
+    border: 3px solid #D80032;
+    border-radius: 20px;
+    transform: rotate(90deg);
+    z-index: 0;
+}
+
+.line-horizontal{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 41.67%;
+    bottom: 58.33%;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.title-dashboard{
+    position: absolute;
+    left: 2.49%;
+    right: 50.2%;
+    top: 3.33%;
+    bottom: 85.83%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.subtitle-dashboard{
+    position: absolute;
+    left: 5.54%;
+    right: 62.6%;
+    top: 16.67%;
+    bottom: 73.33%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+
+    color: #5A5A5A;
+}
+
+.saldo-dashboard{
+    position: absolute;
+    left: 5.54%;
+    right: 69.25%;
+    top: 27.5%;
+    bottom: 61.67%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+.bi-chevron-right{
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    left: 93.91%;
+    right: 3.6%;
+    top: 5.83%;
+    bottom: 88.33%;
+    cursor: pointer;
+    z-index: 0;
+}
+
+#eye2{
+    position: absolute;
+    left: 86.7%;
+    top: 24%;
+}
+
+.pieBackground {
+    background-color: #8D99AE;
+    position: absolute;
+    left: 2.49%;
+    right: 67.59%;
+    top: 50.92%;
+    bottom: 6.67%;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    -moz-box-shadow: -1px 1px 3px #9b1919;
+    -webkit-box-shadow: -1px 1px 3px #801b1b;
+    -o-box-shadow: -1px 1px 3px #000;
+    box-shadow: -1px 1px 3px #000;
+}
+.pie {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    clip: rect(0px, 50px, 100px, 0px);
+}
+.hold {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+#pieSlice2 {
+    left: 2.49%;
+    right: 67.59%;
+    top: 50.92%;
+    bottom: 6.67%;
+    -webkit-transform:rotate(150deg);
+    -moz-transform:rotate(150deg);
+    -o-transform:rotate(150deg);
+    transform:rotate(150deg);
+}
+#pieSlice2 .pie {
+    background-color: #EF233C;
+    -webkit-transform:rotate(40deg);
+    -moz-transform:rotate(40deg);
+    -o-transform:rotate(40deg);
+    transform:rotate(40deg);
+}
+#pieSlice3 {
+    left: 2.49%;
+    right: 67.59%;
+    top: 50.92%;
+    bottom: 6.67%;
+    -webkit-transform:rotate(190deg);
+    -moz-transform:rotate(190deg);
+    -o-transform:rotate(190deg);
+    transform:rotate(190deg);
+}
+#pieSlice3 .pie {
+    background-color: #2B2D42;
+    -webkit-transform:rotate(70deg);
+    -moz-transform:rotate(70deg);
+    -o-transform:rotate(70deg);
+    transform:rotate(70deg);
+}
+#pieSlice4 {
+    left: 2.49%;
+    right: 67.59%;
+    top: 50.92%;
+    bottom: 6.67%;
+    -webkit-transform:rotate(260deg);
+    -moz-transform:rotate(260deg);
+    -o-transform:rotate(260deg);
+    transform:rotate(260deg);
+}
+#pieSlice4 .pie {
+    background-color: #D80032;
+    -webkit-transform:rotate(100deg);
+    -moz-transform:rotate(100deg);
+    -o-transform:rotate(100deg);
+    transform:rotate(100deg);
+}
+
+#pieCenter{
+    background-color: white;
+    position: absolute;
+    left: 8.5%;
+    top: 60%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+#boll1{
+    position: absolute;
+    left: 41.27%;
+    right: 54.85%;
+    top: 52.92%;
+    bottom: 41.25%;
+    border-radius: 50%;
+    background: #2B2D42;
+}
+
+#text1{
+    position: absolute;
+    left: 46.26%;
+    right: 44.88%;
+    top: 55.65%;
+    bottom: 42.08%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#percent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80.33%;
+    right: 3.6%;
+    top: 50.42%;
+    bottom: 39.17%;
+    background: #2B2D42;
+    border-radius: 3px;
+}
+
+#percent-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+}
+
+#boll2{
+    position: absolute;
+    left: 41.27%;
+    right: 54.85%;
+    top: 64.17%;
+    bottom: 30%;
+    border-radius: 50%;
+    background: #8D99AE;
+}
+
+#text2{
+    position: absolute;
+    left: 46.26%;
+    right: 40.72%;
+    top: 67%;
+    bottom: 30.83%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#percent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80.33%;
+    right: 3.6%;
+    top: 61.67%;
+    bottom: 27.92%;
+    background: #8D99AE;
+    border-radius: 3px;
+}
+
+
+#boll3{
+    position: absolute;
+    left: 41.27%;
+    right: 54.85%;
+    top: 75.42%;
+    bottom: 18.75%;
+    border-radius: 50%;
+    background: #EF233C;
+}
+
+#text3{
+    position: absolute;
+    left: 46.26%;
+    right: 46.54%;
+    top: 78.4%;
+    bottom: 19.58%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#percent3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80.33%;
+    right: 3.6%;
+    top: 72.92%;
+    bottom: 16.67%;
+    background: #EF233C;
+    border-radius: 3px;
+}
+
+
+#boll4{
+    position: absolute;
+    left: 41.27%;
+    right: 54.85%;
+    top: 86.67%;
+    bottom: 7.5%;
+    border-radius: 50%;
+    background: #D80032;
+}
+
+#text4{
+    position: absolute;
+    left: 46.26%;
+    right: 44.88%;
+    top: 89.5%;
+    bottom: 8.33%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#percent4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80.33%;
+    right: 3.6%;
+    top: 84.17%;
+    bottom: 5.42%;
+    background: #D80032;
+    border-radius: 3px;
+}
+
+.section-spend-dashboard{
+    position: absolute;
+    width: 361px;
+    height: 240px;
+    left: 12px;
+    top: 612px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(216, 0, 50, 0.22);
+    border-radius: 15px;
+}
+
+#line-vertical-2{
+    border: 3px solid #2B2D42;
+    border-radius: 20px;
+    transform: rotate(90deg);
+    z-index: 0;
+}
+
+.sub-subtitle-dashboard{
+    position: absolute;
+    left: 4.16%;
+    right: 50.98%;
+    top: 46.25%;
+    bottom: 44.17%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5A5A5A;
+}
+
+.retangle-info{
+    position: absolute;
+    left: 3.05%;
+    right: 3.05%;
+    top: 55.83%;
+    bottom: 3.33%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#retangle-info-1{
+    background: rgba(70, 73, 106, 0.24);
+}
+
+.food-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5.54%;
+    right: 80.61%;
+    top: 59.58%;
+    bottom: 19.58%;
+    border-radius: 5px;
+}
+
+#food{
+    width: 50px;
+    height: 50px;
+}
+
+.title-retangle{
+    position: absolute;
+    left: 21.88%;
+    right: 21.33%;
+    top: 59.58%;
+    bottom: 27.92%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.subtitle-retangle{
+    position: absolute;
+    left: 21.88%;
+    right: 61.77%;
+    top: 70.42%;
+    bottom: 20%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #2B2D42;
+}
+
+.footer{
+    position: absolute;
+    left: 8.03%;
+    right: 8.31%;
+    top: 85%;
+    bottom: 5.42%;
+}
+
+.footer-local{
+    position: absolute;
+    left: 0%;
+    right: 70.53%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer-date{
+    position: absolute;
+    left: 46.03%;
+    right: 36.75%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer-price{
+    position: absolute;
+    left: 79.8%;
+    right: -2.98%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #EF233C;
+    
+}
+
+.section-receipt-dashboard{
+    position: absolute;
+    width: 361px;
+    height: 240px;
+    left: 12px;
+    top: 869px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(216, 0, 50, 0.22);
+    border-radius: 15px;
+}
+
+#food-icon-1{
+    background-color: #D80032;
+}
+
+#food-1{
+    width: 45px;
+    height: 45px;
+}
+
+#retangle-info-2{
+    background: rgba(239, 35, 60, 0.24);
+}
+
+#footer-price-2{
+    color: #00930F;
+}
+
+.footer-dashboard{
+    position: fixed;
+    width: 388px;
+    height: 59px;
+    top: 93%;
+    z-index: 0;
+    background: #D80032;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-dashboard-house{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 8.21%;
+    right: 81.54%;
+    top: 16.95%;
+    bottom: 15.25%;
+}
+
+.footer-dashboard-coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 33.33%;
+    right: 56.41%;
+    top: 16.95%;
+    bottom: 15.25%;
+}
+
+.footer-dashboard-graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 58.46%;
+    right: 31.28%;
+    top: 16.95%;
+    bottom: 15.25%;
+}
+
+.footer-dashboard-transaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 83.59%;
+    right: 6.15%;
+    top: 16.95%;
+    bottom: 15.25%;
+}
+
+.footer-dashboard a i{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.footer-dashboard a:nth-child(n + 2){
+    opacity: 35%;
+}
