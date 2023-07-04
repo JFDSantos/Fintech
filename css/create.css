@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    height: auto;
+    width: 100vw;
+    background-color: #fd576a;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.fundo{
+    width: 100%;
+    height: 100%;
+}
+
+input:focus{
+    box-shadow: 0 0 5px 3px #fd576a !important;
+    border-color: #fd576a !important;
+}
+.placeholder{
+    font-size: 90%;
+}
+
+.loginsection button:focus, button:active{
+    box-shadow: 0 0 5px 3px #D80032;
+}
+
